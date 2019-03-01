@@ -1,7 +1,7 @@
 # statistical-analysis
 Codes for statistical anlaysis
 
-significance.py provide a method to deal with statistical significance of a set of data using Games-Howell
+significance.py provide a way to deal with statistical significance of a set of data using Games-Howell
 
 #installation of rpy2
 1. Install R, set your R_HOME (...\R\R-3.0.2\) and PATH (...\R\R-3.0.2\bin\x64)
