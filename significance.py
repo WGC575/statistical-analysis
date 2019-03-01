@@ -3,13 +3,14 @@ from squaad import file
 
 stats=stats()
 
+#added lines of code in commits (True for Neutral commits, False for Breakers)
 data_addtion = {"<10":      {True:218,  False:59},
                 ">=10":     {True:227,  False:103},
                 ">=100":    {True:118,  False:94},
                 ">=500":    {True:17,   False:38}, 
                 ">=1000":   {True:20,   False:32} 
 }
-
+#deleted lines of code in commits (True for Neutral commits, False for Breakers)
 data_deletion = {"<10":      {True:336,  False:97},
                 ">=10":     {True:187,  False:121},
                 ">=100":    {True:60,  False:64},
