@@ -1,4 +1,5 @@
 # statistical-analysis
+
 Codes for statistical anlaysis
 
 significance.py provide a way to deal with statistical significance of a set of data using Games-Howell
@@ -12,3 +13,7 @@ significance.py provide a way to deal with statistical significance of a set of 
 
 #Games-Howell Test
 For usage, see https://pypi.org/project/squaad/
+The proposed input should be:
+Two groups of values, basically representing the same thing.
+For example, the expected quality score of 10 products to the actual quality score of 10 real products
+The G.H. posthoc test will give the result whether the two groups is significantly different. 
