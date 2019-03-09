@@ -7,10 +7,10 @@ col_true = {}
 col_false = {}
 
 #reading one column file
-datafile = open("add_ntl.data", "rt")
-col_true = readData(datafile)
-datafile = open("add_brk.data", "rt")
-col_false = readData(datafile)
+datafile = open("data/add_ntl.data", "rt")
+col_true = fcol2dict(datafile)
+datafile = open("data/add_brk.data", "rt")
+col_false = fcol2dict(datafile)
 
 i = 0
 data_formatted = {}
@@ -33,5 +33,5 @@ print(data_formatted)
 results["output"]=stats.gamesHowellBinomial(data_formatted)
 
 #File output
-file.saveResultsExcel(results,"output.xls")
+file.saveResultsExcel(results,"GH_output.xls")
 pass
