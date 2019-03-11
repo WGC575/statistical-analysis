@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\past_result"
   ],
-  "SelectedNode": "\\consistency.py",
+  "SelectedNode": "\\past_result\\KS_result_taxonomy.output",
   "PreviewInSolutionExplorer": false
 }
