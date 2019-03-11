@@ -1,7 +1,7 @@
 from scipy.stats import wasserstein_distance
 from readfcol import fcol2list
 
-outputfile = open("WAS_result.output", "wt")
+outputfile = open("WAS_result.json", "wt")
 
 file_1 = open("data/distribution_breaker_multi.data", "rt")
 file_2 = open("data/distribution_neutral.data", "rt")
