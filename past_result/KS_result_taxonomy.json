@@ -1,0 +1,7 @@
+[ "statistic=0.2352941176470588", "pvalue=0.6725038222180089" ]
+
+
+//This is the result for Kolmogorov-Smirnov test
+//between the distributions of breakers(multi-tagged) and neutrals(multitagged)
+//on taxonomy distribution
+
