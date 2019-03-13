@@ -15,10 +15,28 @@ significance.py provide a way to deal with statistical significance of a set of 
 The input data is stored in <code>/data</code>.
 The output of past execution is stored in <code>/past_result</code>
 
+#input format
+For utility function, it reads input file with one column, 1-Dimension distribution.
+Input data should be in two different file, basically is in
+<code>/data/distribution_neutral.data</code> and
+<code>/data/distribution_breaker_multi.data</code>
+
 #Games-Howell Test
 For usage, see https://pypi.org/project/squaad/
+G-H test in this research is basically designed for 2 data tuple.
 
-The proposed input should be:
-Two groups of values, basically representing the same thing.
-For example, the expected quality score of 10 products to the actual quality score of 10 real products
-The G.H. posthoc test will give the result whether the two groups is significantly different. 
+#Kullback-Leibler Test 
+#Wasserstein Test
+These two tests is from scipy package designed for evaluate the difference level of two distributions.
+Usually, they are used for machine learning methods as a distance.
+
+#Kolmogorov-Smirnov Test
+K-S test is used to present the difference between two distributions. The return values are the 
+ks-statistic and a p-value.
+
+Notes in scipy documentation:
+This tests whether 2 samples are drawn from the same distribution. Note that, like in the case of the 
+one-sample K-S test, <b>the distribution is assumed to be continuous</b>. This is the two-sided test, one-sided 
+tests are not implemented. The test uses the two-sided asymptotic Kolmogorov-Smirnov distribution. If 
+the K-S statistic is small or the p-value is high, then we cannot reject the hypothesis that the 
+distributions of the two samples are the same.
